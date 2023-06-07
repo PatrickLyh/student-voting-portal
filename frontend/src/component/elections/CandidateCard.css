@@ -1,0 +1,17 @@
+.card-img {
+    width: auto;
+    height: 320px;
+    object-fit: cover;
+    object-position: 0% 10%;
+}
+
+.card-winner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: red;
+    color: white;
+
+    transform: rotate(30deg);
+}

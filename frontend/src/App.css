@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+:root {
+  --bs-primary: #E85B81;
+}
+
+.btn-link {
+  color: #E85B81;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+  color: #E85B81;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #E85B81;
+  border-color: #E85B81;
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: #E85B81;
+  border-color: #E85B81;
+  --bs-btn-active-bg: #c43d61;
+  --bs-btn-active-border-color: #c43d61;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #E85B81;
+  border-color: #E85B81;
+}
+
+.btn-primary:not(:active),
+.btn-primary:focus {
+  background-color: #E85B81;
+  border-color: #E85B81;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #E85B81;
+  border-color: #E85B81;
+}
+
+.btn-outline-primary:hover {
+  background-color: #E85B81;
+  border-color: #E85B81;
+}
+.btn-outline-primary:focus {
+  border-color: #E85B81;
+}
+
+.btn-outline-primary:active {
+  --bs-btn-active-bg: #E85B81;
+  --bs-btn-active-border-color: #E85B81;
+}
+
+
+.btn-outline-primary:not(:active),
+.btn-outline-primary:focus {
+  border-color: #E85B81;
+}
+
+
+.nav-tabs {
+  --bs-nav-tabs-link-active-color: #E85B81;
+}
+.nav-link {
+  color: #495057;
+}
+.nav-link:hover {
+  color: #2e3337;
+}
+
+.btn-danger {
+  background-color: #950000;
+  border-color: #950000;
+}
+
+.btn-outline-danger {
+  --bs-btn-color: #950000;
+  border-color: #950000;
+}
